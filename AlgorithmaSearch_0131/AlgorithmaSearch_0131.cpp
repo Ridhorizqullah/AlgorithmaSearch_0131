@@ -20,3 +20,10 @@ void input()
    
 }
 
+void LinearSearch()
+{
+   
+
+}
+
+
