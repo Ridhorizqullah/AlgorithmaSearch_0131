@@ -32,7 +32,19 @@ void LinearSearch()
         cout << "\nEnter the element you want to search: "; // step 1
         cin >> item;
 
-        
+        ctr = 0;
+        i = 0; // step 2
+        while (i < n) // step 3
+        {
+            
+
+        }
+        if (i == 0) // step 5
+            cout << "\n" << item << " not found in the array\n";
+        cout << "\nNumber of comparaions: " << ctr << endl;
+
+        cout << "\nContinue search (y/n): ";
+        cin >> ch;
 
     } while ((ch == 'y') || (ch == 'Y'));
 
